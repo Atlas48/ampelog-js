@@ -1,6 +1,6 @@
 {
   "name": "ampelog",
-  "version": "2.1.0",
+  "version": "2.1.1",
   "description": "A nice pretty logger",
   "main": "ampelog.js",
   "author": "Atlas Cove",
