@@ -4,17 +4,17 @@ formerly known as *logx-js*.
 
 Simple, pretty, traffic-light logger
 
-logx is an incredably lightweight traffic-light pattern logger, only a single, 7-element object in memory.
+ampelog is an incredably lightweight traffic-light pattern logger, only a single, 7-element object in memory.
 It wraps [ampelstatus](ampelstatus), and is currently classed as it's API.
 
 ## Example
 
 ```js
-logx=require('logx');
+ampelog=require('logx');
 
-logx.err('This is an error');
-logx.inf('The process ran succesfully');
-logx.wrn('You forgot to brush your teeth.');
+ampelog.err('This is an error');
+ampelog.inf('The process ran succesfully');
+ampelog.wrn('You forgot to brush your teeth.');
 ```
 
 ## Commands
