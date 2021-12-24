@@ -15,5 +15,5 @@
         "./**/*.ts",
         "!./node_modules/**/*.ts"
     ],
-    "files": [ "./ampelstatus.ts" ]
+    "files": [ "./ampelog.ts" ]
 }

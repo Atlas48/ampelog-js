@@ -1,15 +1,19 @@
 {
   "name": "ampelog",
-  "version": "2.1.1",
+  "version": "3.0.0",
   "description": "A nice pretty logger",
   "main": "ampelog.js",
   "author": "Atlas Cove",
   "license": "LGPL-3.0-or-later",
   "private": false,
-  "dependencies": {
-    "ampelstatus": "^1.0.0"
+  "scripts": {
+    "build": "tsc ampelog.ts",
+    "builddef": "tsc -d ampelog.ts"
   },
   "optionalDependencies": {
-    "@types/node": "^16.4.13"
+    "@types/node": "^17.0.4"
+  },
+  "devDependencies": {
+    "typescript": "^4.5.4"
   }
 }
